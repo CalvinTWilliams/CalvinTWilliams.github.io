@@ -22,3 +22,46 @@ body {
   font-weight: normal;
 }
 
+.navbar .nav-link {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: normal;
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 700px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #4a3c2b;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
