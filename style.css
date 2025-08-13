@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f1e9; /* cream background */
+  background-color: #f5f1e9;
   color: black;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  background-color: #d9c9b5; /* darker cream */
+  background-color: #d9c9b5;
   font-family: Arial, sans-serif;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
