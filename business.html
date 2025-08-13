@@ -1,146 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sports Forecast - Business Page</title>
-
+  <title>Business Page</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f5f1e9; /* cream */
-      color: black;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Navbar styling */
-    .navbar {
-      background-color: #d9c9b5; /* darker cream */
-    }
-
-    .navbar .navbar-brand,
-    .navbar .nav-link {
-      color: black;
-      font-family: Arial, sans-serif;
-    }
-
-    .navbar .nav-link.active {
-      font-weight: bold;
-    }
-
-    /* Mobile menu icon */
-    .navbar-toggler {
-      border-color: black;
-    }
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-
-    /* Container styles */
-    .container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-
-    /* Business image */
-    .business-image {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-
-    /* Color palette styling */
-    .color-palette {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 2rem;
-    }
-
-    .color-item {
-      text-align: center;
-    }
-
-    .color-circle {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      margin-bottom: 0.5rem;
-      border: 2px solid #ccc;
-    }
-
-    /* Paragraph styling */
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      text-align: justify;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="business.html">Business Idea</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+
+  <!-- Simple Navbar -->
+  <nav class="navbar bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="nav-link" href="business.html">Business</a>
+    <a class="nav-link" href="contact.html">Contact</a>
   </nav>
 
-  <!-- Page content -->
-  <div class="container">
-    <h1 class="mb-4">Sports Forecast</h1>
+  <div class="container mt-4">
+    <h1>Our Business</h1>
 
-    <!-- Business image -->
-    <img src="BusinessFigma.png" alt="Sports Forecast App Screenshot" class="business-image">
+    <!-- Image -->
+    <img src="your-image.jpg" alt="Business Image" class="img-fluid mb-3">
 
-    <!-- Color Palette -->
-    <div class="color-palette">
-      <div class="color-item">
-        <div class="color-circle" style="background-color: #f5f1e9;"></div>
-        <div>#f5f1e9</div>
-      </div>
-      <div class="color-item">
-        <div class="color-circle" style="background-color: #d9c9b5;"></div>
-        <div>#d9c9b5</div>
-      </div>
-      <div class="color-item">
-        <div class="color-circle" style="background-color: #8b7355;"></div>
-        <div>#8b7355</div>
-      </div>
-      <div class="color-item">
-        <div class="color-circle" style="background-color: #4a3b2a;"></div>
-        <div>#4a3b2a</div>
-      </div>
-    </div>
-
-    <!-- Business description -->
+    <!-- Paragraph -->
     <p>
-      By leveraging publicly available data from trusted sources like ESPN, CBS Sports, Pro Football Reference, and advanced historical datasets, our platform uses AI-driven modeling to forecast outcomes across college and professional sports. With accuracy, transparency, and innovation as our pillars, we empower fans, fantasy players, and sports media with real-time game projections, match up insights, and trend analyses. As the demand for data-backed sports content grows, Sports Forecast is positioned to lead the future of predictive performance in the sports industry.
+      By leveraging publicly available data from trusted sources like ESPN, CBS Sports, Pro Football Reference, and advanced historical datasets, our platform uses AI-driven modeling to forecast outcomes across college and professional sports. With accuracy, transparency, and innovation as our pillars, we empower fans, fantasy players, and sports analysts to make informed decisions.
     </p>
   </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
