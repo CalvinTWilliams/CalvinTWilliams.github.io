@@ -5,6 +5,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .navbar {
@@ -64,5 +65,28 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark .navbar {
+  background-color: #1e1e1e;
+}
+
+body.dark .navbar .navbar-brand,
+body.dark .navbar .nav-link {
+  color: white;
+}
+
+body.dark a {
+  color: #cfcfcf;
+}
+
+body.dark a:hover {
+  color: #ffffff;
+}
+
 
 
