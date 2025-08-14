@@ -72,7 +72,7 @@ body.dark {
 }
 
 body.dark .navbar {
-  background-color: #1e1e1e;
+  background-color: #1e1e1e; /* dark navbar */
 }
 
 body.dark .navbar .navbar-brand,
